@@ -21,8 +21,8 @@
 // // console.log (obtainMarks)
 // var final = obtainMarks.toFixed(2);
 // console.log (final)
-// final = parseInt(final)
-// // console.log (final)
+// final = parseFloat(final)
+// console.log (final)
 
 
 
@@ -62,9 +62,9 @@
 
 
 
-var bangla  = 34;
-    bangla +=7 
-    console.log(bangla)
+// var bangla  = 34;
+//     bangla +=7 
+//     console.log(bangla)
 
 
 
@@ -77,7 +77,6 @@ var bangla  = 34;
 // var total = (bangla + english + math + history + islam + science)
 // var totalMarks = total/6 
 
-// var nameSubject = ("bangla  = 34")
 // console.log(nameSubject)
 
 
@@ -88,3 +87,31 @@ var bangla  = 34;
 // console.log ( "this is your final marks" + " " + finalMarks)
 
  
+
+
+// var bangla = "15.17"
+
+// bangla = parseFloat(bangla)
+// console.log(bangla)
+
+
+
+
+
+
+var bangla  = 34;
+var English = 45.56;
+var Math    = 34;
+var Science = 34.67;
+var Biology = 34;
+var Islam   = 34.96;
+var Economic = 34;
+var history = 34.84;
+
+var total = (bangla + English + Math + Science + Biology + Islam + Economic + history)
+ var totalMarks = total/8;
+
+    totalMarks = totalMarks.toFixed(2)
+    console.log (totalMarks)
+    totalMarks = parseFloat(totalMarks)
+    console.log (totalMarks)
