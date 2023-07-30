@@ -143,5 +143,26 @@
 //     console.log(fruits)
 
 
-var numbers = [ 13, 79, 45]
+var num1 = 13; 
+var num2 = 79;
+var num3 = 45; 
+var num4 = 9; 
+var num5 = 8; 
+var num6 = 9; 
 
+// if (num3 > num1) {
+//     console.log ( "79")
+// }
+
+// else {
+//     console.log ( "79" )
+// }
+
+
+if (num1 > num3 ) {
+    console.log ("its a tringal")
+}
+
+else {
+    console.log ( "its not a tringel")
+}
