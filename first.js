@@ -134,6 +134,14 @@
 // }
 
 
-// console.log(6 != 6) 
 
-console.log(6 >= 6) 
+// var fruits = ['apple', 'banana', 'Orange']
+// console.log(fruits.indexOf("banana"))
+//     console.log(fruits)
+//     fruits.pop()
+//     fruits.push("watermallon")
+//     console.log(fruits)
+
+
+var numbers = [ 13, 79, 45]
+
