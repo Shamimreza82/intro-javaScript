@@ -99,19 +99,41 @@
 
 
 
-var bangla  = 34;
-var English = 45.56;
-var Math    = 34;
-var Science = 34.67;
-var Biology = 34;
-var Islam   = 34.96;
-var Economic = 34;
-var history = 34.84;
+// var bangla  = 34;
+// var English = 45.56;
+// var Math    = 34;
+// var Science = 34.67;
+// var Biology = 34;
+// var Islam   = 34.96;
+// var Economic = 34;
+// var history = 34.84;
 
-var total = (bangla + English + Math + Science + Biology + Islam + Economic + history)
- var totalMarks = total/8;
+// var total = (bangla + English + Math + Science + Biology + Islam + Economic + history)
+//  var totalMarks = total/8;
 
-    totalMarks = totalMarks.toFixed(2)
-    console.log (totalMarks)
-    totalMarks = parseFloat(totalMarks)
-    console.log (totalMarks)
+//     totalMarks = totalMarks.toFixed(2)
+//     console.log (totalMarks)
+//     totalMarks = parseFloat(totalMarks)
+//     console.log (totalMarks)
+
+
+
+// var arr = [2, 3 ,4, 5 ,6];
+// console.log(arr[2])
+
+
+// let myArray = [1, 2, 3, 4, 5];
+// console.log(myArray[2]);
+
+// let x = 5;
+// let y = 10;
+// if (x < y) {
+//  console.log("x is less than y");
+// } else {
+//  console.log("x is greater than or equal to y");
+// }
+
+
+// console.log(6 != 6) 
+
+console.log(6 >= 6) 
