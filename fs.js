@@ -174,7 +174,11 @@ var  myCompuer = {
 
 
 console.log (myCompuer.color)
+myCompuer.price = 5000;
+// console.log (myCompuer)
 
-myCompuer.color = 'red'
-
+myCompuer ["color"] = "white"
 console.log (myCompuer)
+
+
+
