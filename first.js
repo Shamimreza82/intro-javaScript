@@ -143,26 +143,61 @@
 //     console.log(fruits)
 
 
-var num1 = 13; 
-var num2 = 79;
-var num3 = 45; 
-var num4 = 9; 
-var num5 = 8; 
-var num6 = 9; 
 
-// if (num3 > num1) {
-//     console.log ( "79")
+
+// var num1 = 13; 
+// var num2 = 79;
+// var num3 = 45; 
+// var num4 = 9; 
+// var num5 = 8; 
+// var num6 = 9; 
+
+// // if (num3 > num1) {
+// //     console.log ( "79")
+// // }
+
+// // else {
+// //     console.log ( "79" )
+// // }
+
+
+// if (num1 > num3 ) {
+//     console.log ("its a tringal")
 // }
 
 // else {
-//     console.log ( "79" )
+//     console.log ( "its not a tringel")
 // }
 
 
-if (num1 > num3 ) {
-    console.log ("its a tringal")
-}
+// var totalMarks = ["85", "66", "95", "56", "40"]
 
-else {
-    console.log ( "its not a tringel")
+
+// var gread1 = ["80", "60", "50", "40", "39"]
+
+// var me = 85; 
+// var tom = 66; 
+// var jane = 95; 
+// var peter = 56; 
+// var jon = 40; 
+
+
+
+
+
+let marks = 65;
+
+switch (marks) {
+    case 80 <= 100:
+        console.log(" Wow nice mark")
+        break;
+    case 60:
+        console.log(" You should stop")
+        break;
+    case 40:
+        console.log(" You Should cross the road")
+        break;
+
+    default:
+        console.log("not your gread")
 }
