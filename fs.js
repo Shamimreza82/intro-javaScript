@@ -61,7 +61,7 @@
 // else{
 //     console.log("you are not adult")
 // }
-  
+
 
 
 
@@ -122,7 +122,7 @@
 // myname(); 
 
 
- // -----------------------------------------------------paramitter --------------------------------------------
+// -----------------------------------------------------paramitter --------------------------------------------
 
 // function add ( number1, number2) {
 //     console.log (number1, number1)
@@ -181,7 +181,7 @@
 // console.log (myCompuer)
 
 
-// --------------------------------------------problem 1------------------------------
+// --------------------------------------------problem 2------------------------------
 
 // function make_ave(assinment1, assinment2, assinment3) {
 //         var total = assinment1 + assinment2 + assinment3 
@@ -203,5 +203,111 @@
 
 
 
-// --------------------------------------------problem 2------------------------------
+// --------------------------------------------problem 1------------------------------
 
+
+// var make_avg = [60, 56, 53]; 
+
+// console.log (make_avg)
+
+
+
+
+
+//  var arry = [60, 56, 55];
+
+// function calculateAverage(array) {
+//     var total = 0;
+//     var count = 0;
+//     array.forEach(function(item, index) {
+//         total += item;
+//         count++;
+//     });
+//     return total / count;
+// }
+
+// console.log(calculateAverage(arry));
+
+
+
+
+
+
+
+
+// const arr = [60, 56, 55];
+// const average = arr.reduce((a, b) => a + b, 0) / arr.length;
+
+// console.log(average);
+
+
+
+
+// const arr = [60, 56, 55];
+// var sum = 0;
+
+// for (var number of arr) {
+//     sum += number;
+// }
+
+// average = sum / arr.length;
+
+// console.log(average);
+
+
+// --------------------------------------------problem 4------------------------------
+
+
+
+// var signal = "green" ; 
+
+// if ( signal == "red") {
+//     console.log (" You may be in danger")
+// } 
+// else if ( signal == "yellow"){
+//     console.log (" You should stop")
+// }
+// else if ( signal == "green"){
+//     console.log (" You Should cross the road")
+// }
+
+
+
+
+// let signal = "  " ;
+
+// switch (signal) {
+//   case "red":
+//     console.log (" You may be in danger")
+//     break;
+//   case "green":
+//         console.log (" You should stop")
+//     break;
+//   case "yellow":
+//     console.log (" You Should cross the road")
+//     break;
+
+//   default:
+//     signal = "Unknown";
+// }
+
+
+// --------------------------------------------problem 5------------------------------
+
+
+let marks = ttt;
+
+switch (marks) {
+    case 80 <= 100:
+        console.log(" Wow nice mark")
+        break;
+    case 60:
+        console.log(" You should stop")
+        break;
+    case 40:
+        console.log(" You Should cross the road")
+        break;
+
+    default:
+        console.log("not your gread")
+}
