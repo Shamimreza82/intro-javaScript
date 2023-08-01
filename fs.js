@@ -166,19 +166,42 @@
 // ---------------------------------------------object-----------------------------
 
 
-var  myCompuer = {
-    brand: "benque",
-    color: "black",
-    price: 40000,  
-}
+// var  myCompuer = {
+//     brand: "benque",
+//     color: "black",
+//     price: 40000,  
+// }
 
 
-console.log (myCompuer.color)
-myCompuer.price = 5000;
+// console.log (myCompuer.color)
+// myCompuer.price = 5000;
+// // console.log (myCompuer)
+
+// myCompuer ["color"] = "white"
 // console.log (myCompuer)
 
-myCompuer ["color"] = "white"
-console.log (myCompuer)
+
+// --------------------------------------------problem 1------------------------------
+
+// function make_ave(assinment1, assinment2, assinment3) {
+//         var total = assinment1 + assinment2 + assinment3 
+//         var totalavarag = total / 3; 
+//         return totalavarag; 
+// }
+// var assinmentMarks1 = 60; 
+// var assinmentMarks2 = 56; 
+// var assinmentmarks3 = 53; 
+// var myMarks = make_ave(assinmentMarks1, assinmentMarks2, assinmentmarks3)
+// console.log (myMarks)
+
+// var fixed = myMarks.toFixed(2); 
+// console.log (fixed)
+
+// var flote = parseFloat(fixed)
+
+// console.log (flote)
 
 
+
+// --------------------------------------------problem 2------------------------------
 
