@@ -295,19 +295,62 @@
 // --------------------------------------------problem 5------------------------------
 
 
-let marks = ttt;
+// let marks = ttt;
 
-switch (marks) {
-    case 80 <= 100:
-        console.log(" Wow nice mark")
-        break;
-    case 60:
-        console.log(" You should stop")
-        break;
-    case 40:
-        console.log(" You Should cross the road")
-        break;
+// switch (marks) {
+//     case 80 <= 100:
+//         console.log(" Wow nice mark")
+//         break;
+//     case 60:
+//         console.log(" You should stop")
+//         break;
+//     case 40:
+//         console.log(" You Should cross the road")
+//         break;
 
-    default:
-        console.log("not your gread")
+//     default:
+//         console.log("not your gread")
+// }
+
+
+
+// var myObject = {
+//     color: "Black",
+//     price:  450, 
+//     hight: 4.6, 
+
+// }
+
+
+// var
+
+// var penCount = myObject.price;
+// console.log(myObject)
+
+
+// function inchToFeet (inch) {
+//     const convirt = inch / 12; 
+//     return convirt; 
+// }
+
+// console.log(inchToFeet (345))
+
+
+
+function GetArrayNumbers (numbers) {
+    for ( let i = 0; i < numbers.length; i++) {
+        const index = i;
+        const element = numbers[index]
+        console.log (index, element) 
+    }
 }
+
+
+GetArrayNumbers()
+
+
+
+
+
+// const myNumbers= [ 23, 45, 34, 45, 45, 56, 45, 34]
+// console.log(myNumbers); 
