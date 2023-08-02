@@ -337,16 +337,16 @@
 
 
 
-function GetArrayNumbers (numbers) {
-    for ( let i = 0; i < numbers.length; i++) {
-        const index = i;
-        const element = numbers[index]
-        console.log (index, element) 
-    }
-}
+// function GetArrayNumbers(numbers) {
+//     for (let i = 0; i < numbers.le; i++) {
+//         const index = i;
+//         const element = numbers[index]
+//         console.log(index, element)
+//     }
+// }
 
 
-GetArrayNumbers()
+// GetArrayNumbers()
 
 
 
@@ -354,3 +354,29 @@ GetArrayNumbers()
 
 // const myNumbers= [ 23, 45, 34, 45, 45, 56, 45, 34]
 // console.log(myNumbers); 
+
+
+
+
+// function inchTofeet (inche) {
+//     let feet = inche / 12; 
+//     return feet; 
+// }
+
+// const resultInch = 84; 
+// const incheFinal = inchTofeet(resultInch); 
+// console.log (incheFinal)
+
+
+
+
+
+
+// function kmToMiles (km) {
+//     let miles = km * 1.60934; 
+//     return miles; 
+// }
+
+// const KmInput = 2; 
+// const totalMinles = kmToMiles(KmInput)
+// console.log (totalMinles)
