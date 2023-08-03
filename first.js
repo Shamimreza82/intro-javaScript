@@ -623,27 +623,57 @@
 
 // --------------------------leap Year-----------------------------
 
-function checkLeapYear(year) {
+
+ 
+// function checkLeapYear(year) {
     
-        if ((0 == year % 4) && (0 != year % 100) || (0 == year % 400)) {
-            console.log(year + ' is a leap year');
-        } else {
-            console.log(year + ' is not a leap year');
-        }
-    }
+//         if ((0 == year % 4) && (0 != year % 100) || (0 == year % 400)) {
+//             console.log(year + ' is a leap year');
+//         } else {
+//             console.log(year + ' is not a leap year');
+//         }
+//     }
     
-    console.log (checkLeapYear(1500))
+//     console.log (checkLeapYear(1600))
     
-    // --------------------------The array in odd an even numbers-----------------------------
+
+
+
+    // --------------------------The array in sum numbers-----------------------------
     
     function getSum (num1) {
+       let sum = 0; 
         for (let i = 0; i < num1.length; i++) {
-            const index = i; 
-            console.log (index);
+            const index = i;  
+            const element = num1[index];
+            sum = sum + element;
+            console.log (index, element, sum);
         }
+        return sum; 
     }
     
+
+
+
+    function geOddnumber (numbers) {
+        const oddnumbers = []; 
+        for (let i = 0; i < numbers.length; i++) {
+            const index = i; 
+            const element = numbers[index]
+            if (element % 2 === 1){
+                console.log (index, element);
+                oddnumbers.push (element);
+            }
+        }
+        return oddnumbers; 
+    }
+
     
     const myNumbers = [23, 34, 56, 45, 34, 45, 23, 56, 34, 77, ]
-    getSum(myNumbers);
+    const totalSumNumber = getSum (myNumbers);
     
+    const totalOddnumber = geOddnumber(oddnumbers)
+
+ // --------------------------The array in odd an even numbers-----------------------------
+
+
