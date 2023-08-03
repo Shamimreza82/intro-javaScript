@@ -380,3 +380,46 @@
 // const KmInput = 2; 
 // const totalMinles = kmToMiles(KmInput)
 // console.log (totalMinles)
+
+
+
+// function evenNumber ( number) {
+//     if (number % 2) {
+//        console.log ("this is even Number")
+//     }
+
+//     else {
+//         console.log ("this is odd Number")
+//     }
+
+// }
+
+
+// console.log (evenNumber(4))
+
+
+// --------------------------leap Year-----------------------------
+
+function checkLeapYear(year) {
+    
+    if ((0 == year % 4) && (0 != year % 100) || (0 == year % 400)) {
+        console.log(year + ' is a leap year');
+    } else {
+        console.log(year + ' is not a leap year');
+    }
+}
+
+console.log (checkLeapYear(1500))
+
+// --------------------------The array in odd an even numbers-----------------------------
+
+function getSum (num1) {
+    for (let i = 0; i < num1.length; i++) {
+        const index = i; 
+        console.log (index);
+    }
+}
+
+
+const myNumbers = [23, 34, 56, 45, 34, 45, 23, 56, 34, 77, ]
+getSum(myNumbers);

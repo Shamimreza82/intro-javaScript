@@ -44,13 +44,18 @@ while (loo <= 623) {
 
 
 
-function odd_even(loop) {
-    var loo = ;
-    while (loo <= 623) {
-        console.log(loo);
-        loo += 2;
-    }
+// function getSum (num1) {
+//     for ( let i = 0; i < num1.lenght; i++) {
+//         const index = i; 
+//         console.log (index);
+//     }
+// }
 
-}
 
-odd_even(loop)
+
+// const myNumbers = [23, 34, 56, 45, 34, 45, 23, 56, 34, 77, ]
+// getSum(myNumbers);
+
+
+
+// What will be the output?
